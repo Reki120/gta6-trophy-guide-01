@@ -2,7 +2,7 @@ export const byKind = (trophies, kind) => kind === 'all' ? trophies : trophies.f
 export const byGrade = (trophies, grade) => grade === 'all' ? trophies : trophies.filter(trophy => trophy.grade === grade);
 export const bySearch = (trophies, query) => {
   const term = query.trim().toLocaleLowerCase();
-  return term ? trophies.filter(trophy => `${trophy.name} ${trophy.description}`.toLocaleLowerCase().includes(term)) : trophies;
+  return term ? trophies.filter(trophy => [trophy.name, trophy.description, trophy.guide, ...trophy.steps].join(' ').toLocaleLowerCase().includes(term)) : trophies;
 };
 export function display(trophy, state) {
   if (state.settings.spoilers && trophy.kind === 'story' && !state.earned[trophy.name]) {
