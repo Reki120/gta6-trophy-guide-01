@@ -16,6 +16,7 @@ const out = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 mkdirSync(out, { recursive: true });
 const trophyData = JSON.parse(readFileSync(join(here, 'app/data/trophies.json'), 'utf8'));
 console.log(`Leonida Platinum data file holds ${trophyData.trophies.length} trophies.`);
+// app/data/tips.json ships with app/ and is included by the recursive copy below.
 cpSync(join(here, 'app'), join(out, 'app'), { recursive: true });
 mkdirSync(join(out, 'screenshots'), { recursive: true });
 if (existsSync(join(here, 'screenshots'))) cpSync(join(here, 'screenshots'), join(out, 'screenshots'), { recursive: true });
