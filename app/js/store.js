@@ -21,7 +21,7 @@ export function earnedCount(state) { return Object.values(state.earned).filter(B
 export function exportJSON(state) {
   const link = document.createElement('a');
   link.href = URL.createObjectURL(new Blob([JSON.stringify(state, null, 2)], { type: 'application/json' }));
-  link.download = 'leonida-platinum-progress.json';
+  link.download = 'leonida-platinum-progress-' + new Date().toISOString().slice(0, 10) + '.json';
   link.click();
   URL.revokeObjectURL(link.href);
 }
