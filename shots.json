@@ -1,0 +1,34 @@
+[
+  {
+    "file": "1-checklist.jpg",
+    "view": "Checklist — Maximum Withdrawal detail, guide, and sources",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    }
+  },
+  {
+    "file": "2-roadmap.jpg",
+    "view": "Roadmap — top of the seven-stage route",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    }
+  },
+  {
+    "file": "3-missables.jpg",
+    "view": "Missables — Actions Speak Louder detail and caution",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    }
+  },
+  {
+    "file": "4-spoilers.jpg",
+    "view": "Checklist — story filter with spoilers enabled",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    }
+  }
+]
