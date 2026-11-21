@@ -7,6 +7,8 @@ Leonida Platinum is an offline-first guide and tracker for all 55 official GTA V
 
 Trophy names, descriptions, grades, and hidden status follow the official list published on [Exophase](https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/); progress targets come from [PSNProfiles](https://psnprofiles.com/trophies/43531-grand-theft-auto-vi). The guide text is written in our own words from those descriptions and has not yet been checked in the game, so it calls out uncertainty instead of inventing unnamed locations or mechanics. The interface uses an original visual design, system fonts, and no Rockstar artwork. It loads no app assets over the network.
 
+The Tips section collects short practical trophy guidance; its data lives in `app/data/tips.json`.
+
 ## Run it
 
 ```sh
