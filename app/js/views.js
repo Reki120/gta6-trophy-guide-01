@@ -111,3 +111,13 @@ export function aboutView(root) {
   article.append(sources, node('h3', '', 'Offline by design'), node('p', '', 'All app files are local: there are no external fonts, images, or runtime data requests. The visual identity is original and uses no Rockstar artwork. Your progress stays in this browser unless you export it.'));
   root.replaceChildren(article);
 }
+
+export function tipsView(root, tips) {
+  const section = node('div', 'tips-grid');
+  for (const tip of tips) {
+    const card = node('article', 'tip-card');
+    card.append(node('h3', '', tip.title), node('p', '', tip.body));
+    section.append(card);
+  }
+  root.replaceChildren(node('p', 'eyebrow', 'FIELD NOTES / TIPS'), node('h2', '', 'Small habits for the long run'), section);
+}
