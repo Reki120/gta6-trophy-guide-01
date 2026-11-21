@@ -783,7 +783,7 @@
       "name": "Hot Together",
       "description": "Lose a 4 star Wanted Level with your partner and escape the heat.",
       "grade": "bronze",
-      "guide": "With your partner, lose a 4-star Wanted Level and escape the heat. The official description does not say where to trigger the level or define the escape method, so follow the game’s wanted-state indicators and keep your partner with you.",
+      "guide": "With your partner, lose a 4-star Wanted Level and escape the heat. The official description does not say where to trigger the level or define the escape method, so follow the game’s wanted-state indicators and keep your partner with you. The description defines a three-part setup: your partner is with you, the Wanted Level reaches four stars, and you escape until it is gone. Keep the partner present through the escape and watch the wanted indicator; no trigger location or escape method is specified, and the game has not been checked yet.",
       "kind": "activities",
       "hidden": false,
       "target": null,
@@ -792,7 +792,8 @@
       "steps": [
         "Be with your partner",
         "Reach a 4-star Wanted Level",
-        "Escape until the wanted level is lost"
+        "Escape until the wanted level is lost",
+        "Confirm the wanted indicator has cleared before counting the attempt"
       ],
       "sources": [
         {
@@ -806,7 +807,7 @@
       "name": "Retail Therapy",
       "description": "Rob 3 shops back-to-back with your partner without losing your Wanted Level.",
       "grade": "bronze",
-      "guide": "Rob three shops back-to-back with your partner without losing your Wanted Level. The description makes the partner, sequence, and wanted-state continuity explicit, but names no shops or route; track the three robberies as one continuous run.",
+      "guide": "Rob three shops back-to-back with your partner without losing your Wanted Level. The description makes the partner, sequence, and wanted-state continuity explicit, but names no shops or route; track the three robberies as one continuous run. Treat this as one continuous partner run: rob three shops back-to-back and do not let the Wanted Level disappear between them. The official list names neither the shops nor how much time may pass, so follow the game’s prompts and verify the trophy; no retry or lockout behavior is confirmed.",
       "kind": "activities",
       "hidden": false,
       "target": null,
@@ -815,7 +816,8 @@
       "steps": [
         "Start with your partner present",
         "Rob three shops in sequence",
-        "Keep the Wanted Level active throughout"
+        "Keep the Wanted Level active throughout",
+        "Keep a tally of the three robberies while the same Wanted Level remains active"
       ],
       "sources": [
         {
@@ -879,7 +881,7 @@
       "name": "Catch Me If You Can",
       "description": "Make an unscheduled departure at VCIA.",
       "grade": "bronze",
-      "guide": "Watch for an unscheduled departure at VCIA. That is the only situation named in the description; it gives no trigger and does not confirm that this opportunity can be missed, so treat the flag as a caution based on the wording.",
+      "guide": "Watch for an unscheduled departure at VCIA. That is the only situation named in the description; it gives no trigger and does not confirm that this opportunity can be missed, so treat the flag as a caution based on the wording. The only named setting is VCIA and the required event is an unscheduled departure. Watch for an in-game opportunity there and act when it appears; the official description gives no trigger or repeat rules. This is flagged as a planning caution, not a confirmed one-time missable, because the game has not been checked.",
       "kind": "activities",
       "hidden": true,
       "target": null,
@@ -888,7 +890,8 @@
       "steps": [
         "Watch for the opportunity at VCIA during normal play",
         "If it appears, attempt the unscheduled departure",
-        "Check whether the trophy registered"
+        "Check whether the trophy registered",
+        "If the event appears time-sensitive, prioritize it and note what the game registers"
       ],
       "sources": [
         {
@@ -925,7 +928,7 @@
       "name": "Sneakthief",
       "description": "Rob a jewelry store without being detected.",
       "grade": "bronze",
-      "guide": "Rob a jewelry store without being detected. The official list does not name a store or explain how detection is measured, so prioritize stealth and use the game’s own alerts as feedback.",
+      "guide": "Rob a jewelry store without being detected. The official list does not name a store or explain how detection is measured, so prioritize stealth and use the game’s own alerts as feedback. The requirement is a jewelry-store robbery completed without detection. The trophy list does not identify a store, define detection, or say whether an alerted attempt can be retried, so pay attention to the game’s own alert feedback and confirm the result before moving on. No stealth tools or route are verified.",
       "kind": "activities",
       "hidden": false,
       "target": null,
@@ -934,7 +937,8 @@
       "steps": [
         "Locate a jewelry store opportunity",
         "Complete the robbery without detection",
-        "Confirm the trophy"
+        "Confirm the trophy",
+        "If an alert appears, record the outcome rather than assuming the attempt still qualifies"
       ],
       "sources": [
         {
@@ -948,7 +952,7 @@
       "name": "Maximum Withdrawal",
       "description": "Rob 5 Bank Vaults and escape.",
       "grade": "silver",
-      "guide": "Rob five Bank Vaults and escape from each required robbery. The list does not name vault locations or approaches, so use the game’s bank activities and keep a count of successful escapes.",
+      "guide": "Rob five Bank Vaults and escape from each required robbery. The list does not name vault locations or approaches, so use the game’s bank activities and keep a count of successful escapes. This requires five Bank Vault robberies, with an escape after each one. Keep a separate tally of successful vault-and-escape completions; the official list does not name banks, approaches, or whether repeating one location counts. Check the game’s progress record as you go, since the exact activity rules have not been verified.",
       "kind": "activities",
       "hidden": false,
       "target": 5,
@@ -957,7 +961,8 @@
       "steps": [
         "Find a Bank Vault robbery opportunity",
         "Rob the vault and escape",
-        "Repeat until five are complete"
+        "Repeat until five are complete",
+        "Add to the count only after the robbery and escape both register"
       ],
       "sources": [
         {
@@ -975,7 +980,7 @@
       "name": "A Classic Blitz Play",
       "description": "Rob an Armored Truck and escape.",
       "grade": "bronze",
-      "guide": "Rob an Armored Truck and escape. The official description does not provide a route, location, or escape method, so react to the game’s armored-truck opportunity and confirm the robbery is completed.",
+      "guide": "Rob an Armored Truck and escape. The official description does not provide a route, location, or escape method, so react to the game’s armored-truck opportunity and confirm the robbery is completed. Complete an Armored Truck robbery and get away afterward; both actions appear in the official requirement. The description gives no route, location, trigger, or escape method, so use the opportunity and feedback the game actually presents and confirm completion. Those details remain unchecked while the game is unreleased.",
       "kind": "activities",
       "hidden": false,
       "target": null,
@@ -984,7 +989,8 @@
       "steps": [
         "Find an Armored Truck opportunity",
         "Complete the robbery",
-        "Escape and check the tracker"
+        "Escape and check the tracker",
+        "Treat the escape as part of the objective, then check the trophy tracker"
       ],
       "sources": [
         {
@@ -1025,7 +1031,7 @@
       "name": "Pest Control",
       "description": "Rob an Illegal Operation belonging to each gang.",
       "grade": "bronze",
-      "guide": "Rob an Illegal Operation belonging to each gang. The list does not name the gangs or their operations, so use the game’s faction and activity information to identify distinct required targets.",
+      "guide": "Rob an Illegal Operation belonging to each gang. The list does not name the gangs or their operations, so use the game’s faction and activity information to identify distinct required targets. The wording calls for an Illegal Operation associated with each gang, so identify the gang attached to an operation and keep a gang-by-gang record rather than repeating one known activity. The official list does not name the gangs or locations, and the PSNProfiles progress target does not explain the underlying rules; verify each result in game.",
       "kind": "activities",
       "hidden": false,
       "target": 9,
@@ -1034,7 +1040,8 @@
       "steps": [
         "Identify each gang’s Illegal Operation",
         "Rob one operation for each gang",
-        "Verify the set is complete"
+        "Verify the set is complete",
+        "Mark a gang complete only after its own operation is recorded as robbed"
       ],
       "sources": [
         {
@@ -1144,7 +1151,7 @@
       "name": "Actions Speak Louder",
       "description": "Choices made (for better or worse).",
       "grade": "bronze",
-      "guide": "Pay attention to choices the game presents. “Choices made (for better or worse)” does not identify a choice or outcome, so treat it as a clue and check whether it registers; the description alone does not confirm that the trophy can be missed.",
+      "guide": "Pay attention to choices the game presents. “Choices made (for better or worse)” does not identify a choice or outcome, so treat it as a clue and check whether it registers; the description alone does not confirm that the trophy can be missed. The official description is only a clue about choices and their consequences; it does not name a decision, outcome, or chapter. Pause when the game presents a meaningful choice and note the context, especially if it appears tied to a current opportunity. The list alone does not prove this is missable, so treat its flag as caution until the game can be checked.",
       "kind": "activities",
       "hidden": true,
       "target": 500,
@@ -1153,7 +1160,8 @@
       "steps": [
         "Pause when a significant choice appears",
         "Make a note of the opportunity and outcome",
-        "Check the tracker afterward"
+        "Check the tracker afterward",
+        "Keep a brief note of choices and check for progress after each one"
       ],
       "sources": [
         {
@@ -1171,7 +1179,7 @@
       "name": "Bad Luck, I Guess",
       "description": "Second time's the charm.",
       "grade": "bronze",
-      "guide": "Watch for a second-chance opportunity. “Second time’s the charm” names no event or trigger, so treat it as a clue only; the description does not confirm that the opportunity is missable.",
+      "guide": "Watch for a second-chance opportunity. “Second time’s the charm” names no event or trigger, so treat it as a clue only; the description does not confirm that the opportunity is missable. “Second time’s the charm” suggests a second attempt, but the official list gives no event, trigger, or explanation of what must happen twice. Stay alert for an explicit chance to try again and check whether it registers. It is flagged for caution only: there is no verified evidence that passing an opportunity permanently blocks it.",
       "kind": "activities",
       "hidden": true,
       "target": null,
@@ -1180,7 +1188,8 @@
       "steps": [
         "Watch for an opportunity to try again",
         "Take the second chance if the game presents one",
-        "Confirm whether the trophy appears"
+        "Confirm whether the trophy appears",
+        "If a retry or second chance is offered, resolve it before leaving that activity"
       ],
       "sources": [
         {
@@ -1240,7 +1249,7 @@
       "name": "Dime on the Dollar",
       "description": "Earn $250,000 laundering Marked Bills through your contacts.",
       "grade": "bronze",
-      "guide": "Earn $250,000 by laundering Marked Bills through your contacts. The description specifies the income source and total but not which contacts or steps, so use the game’s contact options and track credited earnings.",
+      "guide": "Earn $250,000 by laundering Marked Bills through your contacts. The description specifies the income source and total but not which contacts or steps, so use the game’s contact options and track credited earnings. Only money earned by laundering Marked Bills through contacts is named for this $250,000 goal. Keep it separate from ordinary cash and shop spending, use the contacts the game makes available, and watch for the amount credited by laundering. The list does not identify contacts or transaction steps, so do not assume an uncredited amount counts.",
       "kind": "activities",
       "hidden": false,
       "target": 250000,
@@ -1249,7 +1258,8 @@
       "steps": [
         "Collect Marked Bills through play",
         "Use contacts to launder them",
-        "Reach $250,000 earned"
+        "Reach $250,000 earned",
+        "Check the laundering total after each contact transaction before updating the counter"
       ],
       "sources": [
         {
@@ -1267,7 +1277,7 @@
       "name": "Treat Yo Self",
       "description": "Spend $100,000 across all shops.",
       "grade": "bronze",
-      "guide": "Spend $100,000 across all shops. The official description does not list shops or say how spending is counted, so make purchases at the game’s shops and monitor any progress indicator.",
+      "guide": "Spend $100,000 across all shops. The official description does not list shops or say how spending is counted, so make purchases at the game’s shops and monitor any progress indicator. Build toward $100,000 in purchases made across shops. The official wording does not list which shops qualify or say whether spending must be distributed among them, so make purchases broadly and use any in-game progress record as the authority. This requirement tracks spending, not the separate Marked Bills laundering objective.",
       "kind": "activities",
       "hidden": false,
       "target": 100000,
@@ -1276,7 +1286,8 @@
       "steps": [
         "Make purchases from shops",
         "Spread spending across available shops",
-        "Reach $100,000 total"
+        "Reach $100,000 total",
+        "Review the recorded total before making optional large purchases elsewhere"
       ],
       "sources": [
         {
@@ -1294,7 +1305,7 @@
       "name": "Little Boxes",
       "description": "Purchase all garage properties.",
       "grade": "bronze",
-      "guide": "Purchase all garage properties. The list does not give a property catalog or total, so use the game’s property listings and track each garage purchase.",
+      "guide": "Purchase all garage properties. The list does not give a property catalog or total, so use the game’s property listings and track each garage purchase. The requirement is to purchase every garage property. Review the property listings the game provides and mark each garage only after its purchase is complete; the trophy sources do not supply a location list or confirm how availability unlocks. Keep this as an endgame cleanup item if some listings are not yet accessible.",
       "kind": "activities",
       "hidden": false,
       "target": 8,
@@ -1303,7 +1314,8 @@
       "steps": [
         "Review garage property listings",
         "Purchase every available garage property",
-        "Confirm completion"
+        "Confirm completion",
+        "Recheck the full listing after each purchase for garages still unowned"
       ],
       "sources": [
         {
@@ -1321,7 +1333,7 @@
       "name": "On the Spot",
       "description": "Register 10 vehicles to the Scooter Bros app.",
       "grade": "bronze",
-      "guide": "Register 10 vehicles to the Scooter Bros app. The description gives the app name and count but no acquisition or registration steps, so follow its in-game prompts and track each successful registration.",
+      "guide": "Register 10 vehicles to the Scooter Bros app. The description gives the app name and count but no acquisition or registration steps, so follow its in-game prompts and track each successful registration. This is about registering ten vehicles with the Scooter Bros app, not merely discovering ten vehicle types. Open the app when the game makes it available, follow its own registration prompts, and count only registrations that the game confirms. The official list does not explain eligibility or whether duplicates qualify; those details await in-game verification.",
       "kind": "collectibles",
       "hidden": false,
       "target": 10,
@@ -1330,7 +1342,8 @@
       "steps": [
         "Open Scooter Bros when available",
         "Register vehicles through its prompts",
-        "Reach 10 registered vehicles"
+        "Reach 10 registered vehicles",
+        "Use the app’s confirmation or progress record to avoid counting unregistered discoveries"
       ],
       "sources": [
         {
