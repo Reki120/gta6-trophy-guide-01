@@ -1,7 +1,7 @@
-import { data, roadmap } from './data.js';
+import { data, roadmap, tips } from './data.js';
 import { load, save, toggleEarned, setCount, exportJSON, importJSON, earnedCount } from './store.js';
 import { byKind, byGrade, bySearch } from './filters.js';
-import { checklistView, roadmapView, missablesView, aboutView } from './views.js';
+import { checklistView, roadmapView, missablesView, aboutView, tipsView } from './views.js';
 
 const state = load();
 let route = 'checklist';
@@ -89,4 +89,5 @@ document.getElementById('import').addEventListener('change', async event => {
   event.target.value = '';
 });
 window.addEventListener('hashchange', setRouteFromHash);
+tipsView(document.getElementById('tips'), tips);
 setRouteFromHash();
