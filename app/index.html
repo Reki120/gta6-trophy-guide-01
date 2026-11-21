@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171126">
+  <meta name="description" content="Offline GTA VI trophy guide and tracker for all 55 official PlayStation 5 trophies.">
+  <title>Leonida Platinum — GTA VI Trophy Guide &amp; Tracker</title>
+  <link rel="stylesheet" href="css/base.css">
+  <script type="module" src="js/main.js"></script>
+</head>
+<body>
+  <header class="site-head">
+    <a class="brand" href="#checklist" aria-label="Leonida Platinum home">
+      <span class="brand-mark" aria-hidden="true"><i></i><b>LP</b></span>
+      <span class="brand-copy"><span class="eyebrow">FIELD NOTES / PLAYSTATION 5</span><h1>Leonida Platinum</h1><span class="subtitle">GTA VI trophy guide &amp; tracker — all 55 official PlayStation 5 trophies</span></span>
+    </a>
+    <section class="summary" aria-label="Trophy progress">
+      <div class="summary-line"><strong id="earned-total">0 of 55 earned</strong><span id="percent">0%</span></div>
+      <div class="progress-track" role="progressbar" aria-label="Trophies earned" aria-valuemin="0" aria-valuemax="55"><span id="header-progress"></span></div>
+      <div class="grade-tallies"><span><i class="dot platinum"></i>1 platinum</span><span><i class="dot gold"></i>2 gold</span><span><i class="dot silver"></i>6 silver</span><span><i class="dot bronze"></i>46 bronze</span></div>
+    </section>
+  </header>
+  <nav class="tabs" aria-label="Main views">
+    <a href="#checklist" data-route="checklist">Checklist</a><a href="#roadmap" data-route="roadmap">Roadmap</a><a href="#missables" data-route="missables">Missables <span class="tab-count">03</span></a><a href="#about" data-route="about">About &amp; sources</a>
+  </nav>
+  <main>
+    <section id="controls" class="controls" aria-label="Checklist controls">
+      <div id="checklist-controls">
+        <div class="control-row">
+          <label class="search-wrap"><span class="sr-only">Search trophies</span><span class="search-icon" aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Search names &amp; objectives"></label>
+          <label class="select-wrap"><span class="sr-only">Grade</span><select id="grade"><option value="all">All grades</option><option value="platinum">Platinum</option><option value="gold">Gold</option><option value="silver">Silver</option><option value="bronze">Bronze</option></select></label>
+          <label class="toggle"><input id="spoilers" type="checkbox"><span class="switch"></span><span>Spoilers</span></label>
+          <label class="toggle"><input id="hide-earned" type="checkbox"><span class="switch"></span><span>Hide earned</span></label>
+          <button id="export" class="quiet-button" type="button">Export</button>
+          <label id="import-label" class="quiet-button import-button">Import<input id="import" type="file" accept="application/json,.json"></label>
+        </div>
+        <div class="filter-line"><span class="filter-label">SHOW</span><div class="filter-chips" id="kind-filters" aria-label="Kind filter"></div></div>
+      </div>
+      <p id="import-status" class="import-status" role="status" aria-live="polite"></p>
+    </section>
+    <div id="view" class="view" aria-live="polite"></div>
+  </main>
+  <footer><span>INDEPENDENT FIELD GUIDE</span><span>Progress saved in this browser · built for quiet cleanup sessions</span></footer>
+</body>
+</html>
