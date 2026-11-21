@@ -1,3 +1,4 @@
+// Regenerates the four app screenshots and their shots.json manifest.
 import { spawn } from 'node:child_process';
 import { mkdir, readdir, rm, stat, writeFile } from 'node:fs/promises';
 import { setTimeout as delay } from 'node:timers/promises';
